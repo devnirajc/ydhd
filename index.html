@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Create Account</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+	<div class="container-fluid">
+		<div class="top-section">
+			<header class="header">
+				<div class="col-md-12">
+					<div class="pull-left"><img src="./images/Capture.PNG"></div>
+					<div class="pull-right">
+						<p class="headerText">How It Works</p>
+					</div>
+				</div>
+			</header>
+		</div>
+
+		<main>
+			<div class="limiter">
+				<div class="container-login100">
+					<div class="wrap-login100">
+						<form class="login100-form validate-form">
+							<div class="row form-header">
+								<div class="col-md-12">
+									<div class="form-title">
+										Create Account
+									</div>
+									<ul class="list-inline">
+										<li class="list-inline-item border-bt">Account</li>
+										<li class="list-inline-item text-muted">Location</li>
+										<li class="list-inline-item text-muted">Payment</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="inner-form">
+								<div class="wrap-input100 validate-input m-b-50" data-validate="Full Name is required">
+									<!-- <span class="label-input100">Username</span> -->
+									<input class="input100" type="text" name="username" placeholder="Full Name *">
+									<span class="focus-input100"></span>
+								</div>
+
+								<div class="row">
+									<div class="col-md-4">
+										<div class="wrap-input100 validate-input m-b-50" data-validate="Country code is required">
+											<!-- <span class="label-input100">Username</span> -->
+											<img class="country-flag" src="./images/india.png" />
+											<input class="input100 country-code-ip" type="number" name="countryCode" placeholder="+ 91">
+											<i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+											<span class="focus-input100"></span>
+											<!-- data-symbol="&#xf206;" -->
+										</div>
+									</div>
+									<div class="col-md-8">
+										<div class="wrap-input100 validate-input m-b-50" data-validate="Mobile Number is required">
+											<!-- <span class="label-input100">Username</span> -->
+											<input class="input100" type="number" name="mobileNumber" placeholder="Mobile Number *">
+											<span class="focus-input100"></span>
+										</div>
+									</div>
+								</div>
+
+								<div class="wrap-input100 validate-input m-b-50" data-validate="Email is required">
+									<!-- <span class="label-input100">Password</span> -->
+									<input class="input100" type="email" name="emailId" placeholder="Email Address *">
+									<span class="focus-input100"></span>
+								</div>
+
+								<div class="wrap-input100 validate-input m-b-50" data-validate="Password is required">
+									<!-- <span class="label-input100">Password</span> -->
+									<input class="input100" type="password" name="pass" placeholder="Enter Password *">
+									<span class="focus-input100"></span>
+								</div>
+
+								<div class="wrap-input100 validate-input m-b-25" data-validate="Password is required">
+									<!-- <span class="label-input100">Password</span> -->
+									<input class="input100" type="password" name="confPass" placeholder="Confirm Password *">
+									<span class="focus-input100"></span>
+								</div>
+
+								<div class="text-left p-t-8 p-b-25">
+									<label class="check-box">I agree to HDYD's <span class="blue-text">Terms of Services</span> and <span class="blue-text">Privacy
+											Policy.</span>
+										<input type="checkbox" checked="checked">
+										<span class="checkmark"></span>
+									</label>
+								</div>
+
+								<button class="login100-form-btn">
+									Next
+								</button>
+
+							</div>
+							<div class="txt1 text-center p-t-54 p-b-40">
+								<p class="acc-text">
+									Already have an account?
+								</p>
+								<p class="signIn-text"> Sign In </p>
+							</div>
+						</form>
+					</div>
+				</div>
+				<footer class="footer">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-5">
+								<p class="footer-text-cp">&copy; 2018 HDYD. All Rights Reserved.</p>
+							</div>
+							<div class="col-md-7 text-right">
+								<ul class="list-inline">
+									<li class="list-inline-item footer-text-cp pr-5">Contact Us</li>
+									<li class="list-inline-item footer-text-cp pr-5">Terms of Services</li>
+									<li class="list-inline-item footer-text-cp">Privacy Policy</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</footer>
+			</div>
+		</main>
+	</div>
+	<div id="dropDownSelect1"></div>
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script src="vendor/select2/select2.min.js"></script>
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
