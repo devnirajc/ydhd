@@ -34,12 +34,12 @@ body,
 html {
   font-size: 16px;
   height: 100%;
-  font-family: Montserrat-Regular;
+  font-family: "Montserrat-Regular";
 }
 
 /*---------------------------------------------*/
 a {
-  font-family: Montserrat-Regular;
+  font-family: "Montserrat-Regular";
   font-size: 14px;
   line-height: 1.7;
   color: #666666;
@@ -897,7 +897,94 @@ p.headerText {
   letter-spacing: 0.05em;
   padding-top: 35px;
 }
+
 .card-content {
   display: block;
   float: left;
+}
+
+.form-center {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+}
+
+.form-container {
+  width: 780px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.getHelpButton {
+  font-family: 'Montserrat-SemiBold';
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(3, 62, 94, 1);
+  text-align: center;
+  letter-spacing: 0.1em;
+  padding: 18px 35px;
+  background-color: #f4c115;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+
+}
+
+.form-input {
+  position: relative;
+  width: 780px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 18px 25px;
+}
+
+.form-input::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  font-family: 'Montserrat-Regular';
+  font-size: 16px;
+  color: rgba(157, 180, 193, 1);
+  text-align: left;
+  letter-spacing: 0.03em;
+  line-height: 50px;
+}
+
+.txt2 {
+  padding: 15px 40px 15px 10px;
+  color: #5891b1;
+}
+
+.txt2.active {
+  color: #fff;
+}
+
+.form-input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  font-family: 'Montserrat-Regular';
+  font-size: 16px;
+  color: rgba(157, 180, 193, 1);
+  text-align: left;
+  letter-spacing: 0.03em;
+  line-height: 50px;
+}
+
+.form-input::-ms-input-placeholder {
+  /* Microsoft Edge */
+  font-family: 'Montserrat-Regular';
+  font-size: 16px;
+  color: rgba(157, 180, 193, 1);
+  text-align: left;
+  letter-spacing: 0.03em;
+  line-height: 50px;
+}
+
+.navbar-brand {
+  padding-right: 30px;
+}
+
+.bell {
+  padding: 14px 30px;
 }
