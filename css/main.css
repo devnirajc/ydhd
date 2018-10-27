@@ -962,6 +962,9 @@ p.headerText {
   border: 1px solid transparent;
   border-radius: .25rem;
 }
+.right-menu {
+  float: right;
+}
 
 /* Media Queries */
 @media (max-width: 576px) {
@@ -1037,7 +1040,7 @@ p.headerText {
     z-index: 1;
   }
 
-  .float-right {
+  .right-menu {
     float: left !important;
   }
 
