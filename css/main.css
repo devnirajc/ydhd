@@ -503,12 +503,7 @@ iframe {
   opacity: 1;
 }
 
-@media (max-width: 992px) {
-  .alert-validate::before {
-    visibility: visible;
-    opacity: 1;
-  }
-}
+
 
 
 /*//////////////////////////////////////////////////////////////////
@@ -537,13 +532,6 @@ iframe {
 
 /*//////////////////////////////////////////////////////////////////
 [ Responsive ]*/
-
-@media (max-width: 576px) {
-  .wrap-login100 {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-}
 
 .top-section {
   width: 100%;
@@ -758,34 +746,6 @@ p.headerText {
   margin-left: 35px;
 }
 
-@media (max-width: 600px) {
-  .inner-form {
-    width: 100%;
-  }
-}
-
-@media (max-width: 580px) {
-  .form-header ul li {
-    margin: 0px 0px 0px;
-    padding: 42px 16px 10px;
-    font-family: Montserrat-Regular;
-    font-size: 15px;
-  }
-
-  .inner-form {
-    padding: 50px 38px;
-  }
-
-  .footer-text-cp {
-    padding: 10px 0 !important;
-    text-align: center;
-  }
-
-  .footer ul {
-    text-align: center;
-
-  }
-}
 
 /******************* CUSTOM RADIO BUTTONS **********************/
 [type="radio"]:checked,
@@ -987,4 +947,111 @@ p.headerText {
 
 .bell {
   padding: 14px 30px;
+}
+
+.header-container {
+  background-color: #003c5e;
+  height: 163px
+}
+
+.navbar-toggler {
+  padding: 0.15rem 0.30rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+}
+
+/* Media Queries */
+@media (max-width: 576px) {
+  .wrap-login100 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .inner-form,
+  .form-container,
+  .form-input,
+  .container-580 {
+    width: 100%;
+  }
+}
+@media (max-width: 700px) {
+  .form-header ul li {
+    margin: 0px 0px 0px;
+    padding: 42px 16px 10px;
+    font-family: Montserrat-Regular;
+    font-size: 15px;
+  }
+
+  .inner-form {
+    padding: 50px 38px;
+  }
+
+  .footer-text-cp {
+    padding: 10px 0 !important;
+    text-align: center;
+  }
+
+  .footer ul {
+    text-align: center;
+
+  }
+}
+@media (max-width: 992px) {
+  .alert-validate::before {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .form-container,
+  .form-input,
+  .container-580 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1023px) {
+  .container-580 .row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+
+  .card-sm {
+    float: none;
+  }
+
+  .navbar-collapse {
+    z-index: 1;
+    background: #f3bb01;
+    margin: 0 -16px;
+    padding: 10px 20px;
+    overflow: hidden;
+  }
+
+  .form-container {
+    z-index: 1;
+  }
+
+  .float-right {
+    float: left !important;
+  }
+
+  .bell {
+    padding: 5px 0px;
+  }
+  .footer-text-cp {
+    text-align: center;
+  }
+  .pr-5{
+    padding-right: 1rem !important;
+  }
+  .list-inline-item:not(:last-child) {
+    margin-right: 0px !important;
+  }
+
 }
