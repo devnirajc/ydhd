@@ -1148,6 +1148,12 @@ p.headerText {
     padding-left: 15px;
     padding-right: 15px;
   }
+  .profile-title, .subtitle, .dateBox, .viewBtn {
+    display: block !important;
+    margin: 0 auto;
+    text-align: center;
+    float: none !important;
+  }
 }
 
 @media (max-width: 600px) {
