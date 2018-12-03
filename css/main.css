@@ -21,6 +21,11 @@
   src: url('../fonts/Montserrat/Montserrat-Bold.ttf');
 }
 
+@font-face {
+  font-family: Avenir-Next;
+  src: url('../fonts/Avenir-Next/Avenir-Next.ttf');
+}
+
 /*//////////////////////////////////////////////////////////////////
 [ RESTYLE TAG ]*/
 
@@ -962,8 +967,179 @@ p.headerText {
   border: 1px solid transparent;
   border-radius: .25rem;
 }
+
 .right-menu {
   float: right;
+}
+
+.navbar-blue {
+  background-color: #003c5e;
+}
+
+.heading {
+  font-family: 'Montserrat-Regular';
+  font-size: 25px;
+  font-weight: 600;
+  color: rgba(33, 33, 33, 1);
+  text-align: left;
+  letter-spacing: 0.03em;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.flex-box {
+  display: flex;
+}
+
+.right-angle .fa-angle-left {
+  padding-right: 30px;
+  font-size: 57px;
+  line-height: 40px;
+  color: rgba(184, 184, 184, 1);
+}
+
+.outer-card {
+  width: 100%;
+  margin-top: 30px;
+  border-radius: 12px;
+}
+
+.hr-line {
+  border: 1px solid #eee;
+}
+
+.profile-title {
+  height: 20px;
+  font-family: 'Montserrat-Regular';
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(33, 33, 33, 1);
+  text-align: left;
+  letter-spacing: 0.03em;
+  line-height: 25px;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.subtitle {
+  font-family: 'Montserrat-Regular';
+  font-size: 14px;
+  color: rgba(199, 102, 140, 1);
+  text-align: left;
+  letter-spacing: 0.03em;
+  line-height: 25px;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.dateBox {
+  font-family: 'Montserrat-Regular';
+  font-size: 14px;
+  color: rgba(128, 143, 151, 1);
+  text-align: right;
+  letter-spacing: 0.03em;
+  line-height: 20px;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.card-body-text {
+  font-family: 'Montserrat-Medium';
+  font-size: 14px;
+  color: rgba(128, 143, 151, 1);
+  text-align: left;
+  letter-spacing: 0.03em;
+  line-height: 20px;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.price-text {
+  font-family: 'Avenir-Next';
+  font-size: 25px;
+  font-weight: 500;
+  color: rgba(33, 33, 33, 1);
+  text-align: right;
+  letter-spacing: 0.03em;
+  line-height: 25px;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.card-bottom-text {
+  font-family: 'Montserrat-Regular';
+  font-size: 16px;
+  color: rgba(128, 143, 151, 1);
+  text-align: center;
+  letter-spacing: 0.03em;
+  line-height: 25px;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.bd-text {
+  font-family: 'Montserrat-Regular';
+  font-size: 40px;
+  font-weight: 600;
+  color: rgba(33, 33, 33, 1);
+  text-align: center;
+  letter-spacing: 0.03em;
+  line-height: 25px;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.sendBankBtn {
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(25, 156, 226, 1);
+  border-radius: 12px;
+  font-family: 'Montserrat-Regular';
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(25, 156, 226, 1);
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+.wall-text {
+  background: rgba(246, 246, 246, 1);
+  font-family: 'Montserrat-Regular';
+  font-size: 20px;
+  color: rgba(33, 33, 33, 1);
+  text-align: center;
+  letter-spacing: 0.03em;
+  line-height: 25px;
+}
+
+.wall-text span {
+  font-family: 'Montserrat-Regular';
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(33, 33, 33, 1);
+  text-align: center;
+  letter-spacing: 0.03em;
+  line-height: 25px;
+  padding-left: 10px;
+}
+
+.viewWalletBtn {
+  background: rgba(244, 192, 28, 1);
+  border-radius: 12px;
+  font-family: 'Montserrat-Regular';
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(3, 62, 94, 1);
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
 
 /* Media Queries */
@@ -983,6 +1159,7 @@ p.headerText {
     width: 100%;
   }
 }
+
 @media (max-width: 700px) {
   .form-header ul li {
     margin: 0px 0px 0px;
@@ -1005,6 +1182,7 @@ p.headerText {
 
   }
 }
+
 @media (max-width: 992px) {
   .alert-validate::before {
     visibility: visible;
@@ -1047,12 +1225,15 @@ p.headerText {
   .bell {
     padding: 5px 0px;
   }
+
   .footer-text-cp {
     text-align: center;
   }
-  .pr-5{
+
+  .pr-5 {
     padding-right: 1rem !important;
   }
+
   .list-inline-item:not(:last-child) {
     margin-right: 0px !important;
   }
